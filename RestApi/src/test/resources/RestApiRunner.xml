@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest API Automation Script " parallel="false">
+    <test name = "restTestCaseRun">
+        <classes>
+            <class name="json_server.Post"/>
+            <class name="weather_app.GetTest"/>
+        </classes>
+    </test>
+</suite>
